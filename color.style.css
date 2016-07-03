@@ -1,0 +1,111 @@
+.green
+{
+	border-color: green;
+	background-color: #008a00;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOGEwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMGE2MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #008a00 0%, #00a600 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#008a00), color-stop(100%,#00a600));
+	background: -webkit-linear-gradient(left,  #008a00 0%,#00a600 100%);
+	background: -o-linear-gradient(left,  #008a00 0%,#00a600 100%);
+	background: -ms-linear-gradient(left,  #008a00 0%,#00a600 100%);
+	background: linear-gradient(to right,  #008a00 0%,#00a600 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008a00', endColorstr='#00a600',GradientType=1 );
+}
+
+.orange
+{
+	border-color: #C52600;
+	background-color: #d24726;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QyNDcyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkYzU3MmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #d24726 0%, #dc572e 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d24726), color-stop(100%,#dc572e));
+	background: -webkit-linear-gradient(left,  #d24726 0%,#dc572e 100%);
+	background: -o-linear-gradient(left,  #d24726 0%,#dc572e 100%);
+	background: -ms-linear-gradient(left,  #d24726 0%,#dc572e 100%);
+	background: linear-gradient(to right,  #d24726 0%,#dc572e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d24726', endColorstr='#dc572e',GradientType=1 );
+}
+
+.blue
+{
+	border-color: #2C2CFF;
+	background-color: #225cba;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIyNWNiYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNzc2YmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #225cba 0%, #3776bf 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#225cba), color-stop(100%,#3776bf));
+	background: -webkit-linear-gradient(left,  #225cba 0%,#3776bf 100%);
+	background: -o-linear-gradient(left,  #225cba 0%,#3776bf 100%);
+	background: -ms-linear-gradient(left,  #225cba 0%,#3776bf 100%);
+	background: linear-gradient(to right,  #225cba 0%,#3776bf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#225cba', endColorstr='#3776bf',GradientType=1 );
+}
+
+.pink
+{
+	border-color: #BA3BC2;
+	background-color: #8c0095;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhjMDA5NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhNzAwYWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #8c0095 0%, #a700ae 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8c0095), color-stop(100%,#a700ae));
+	background: -webkit-linear-gradient(left,  #8c0095 0%,#a700ae 100%);
+	background: -o-linear-gradient(left,  #8c0095 0%,#a700ae 100%);
+	background: -ms-linear-gradient(left,  #8c0095 0%,#a700ae 100%);
+	background: linear-gradient(to right,  #8c0095 0%,#a700ae 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c0095', endColorstr='#a700ae',GradientType=1 );
+}
+
+.purple
+{
+	border-color: #7851EC;
+	background-color: #5133ab;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUxMzNhYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2YjRiYmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #5133ab 0%, #6b4bbc 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5133ab), color-stop(100%,#6b4bbc));
+	background: -webkit-linear-gradient(left,  #5133ab 0%,#6b4bbc 100%);
+	background: -o-linear-gradient(left,  #5133ab 0%,#6b4bbc 100%);
+	background: -ms-linear-gradient(left,  #5133ab 0%,#6b4bbc 100%);
+	background: linear-gradient(to right,  #5133ab 0%,#6b4bbc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5133ab', endColorstr='#6b4bbc',GradientType=1 );
+}
+
+.red
+{
+	border-color: #C25C5C;
+	background-color: #ac193d;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FjMTkzZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiYzQyNjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(left,  #ac193d 0%, #bc4262 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,#ac193d), color-stop(100%,#bc4262));
+	background-image: -webkit-linear-gradient(left,  #ac193d 0%,#bc4262 100%);
+	background-image: -o-linear-gradient(left,  #ac193d 0%,#bc4262 100%);
+	background-image: -ms-linear-gradient(left,  #ac193d 0%,#bc4262 100%);
+	background-image: linear-gradient(to right,  #ac193d 0%,#bc4262 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac193d', endColorstr='#bc4262',GradientType=1 );
+}
+
+.blue_light
+{
+	border-color: #85BFEC;
+	background: #2672ec;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI2NzJlYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1M2EwZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #2672ec 0%, #53a0ed 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2672ec), color-stop(100%,#53a0ed));
+	background: -webkit-linear-gradient(left,  #2672ec 0%,#53a0ed 100%);
+	background: -o-linear-gradient(left,  #2672ec 0%,#53a0ed 100%);
+	background: -ms-linear-gradient(left,  #2672ec 0%,#53a0ed 100%);
+	background: linear-gradient(to right,  #2672ec 0%,#53a0ed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2672ec', endColorstr='#53a0ed',GradientType=1 );
+}
+
+.turquoise
+{
+	border-color: turquoise;
+	background: #008299;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwODI5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOGE1YWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left,  #008299 0%, #38a5af 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#008299), color-stop(100%,#38a5af));
+	background: -webkit-linear-gradient(left,  #008299 0%,#38a5af 100%);
+	background: -o-linear-gradient(left,  #008299 0%,#38a5af 100%);
+	background: -ms-linear-gradient(left,  #008299 0%,#38a5af 100%);
+	background: linear-gradient(to right,  #008299 0%,#38a5af 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008299', endColorstr='#38a5af',GradientType=1 );
+}
