@@ -1,0 +1,21 @@
+{
+  "name": "horloge",
+  "homepage": "https://github.com/QuentinBALCEREK/horloge",
+  "authors": [
+    "quentin.balcerek@gmail.com"
+  ],
+  "description": "une horloge spécial",
+  "main": "index.html",
+  "keywords": [
+    "horloge"
+  ],
+  "license": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
