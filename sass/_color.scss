@@ -1,0 +1,51 @@
+.green, .orange, .blue, .pink, .purple, .red, .blue_light, .turquoise
+{
+	color: white;
+}
+.green
+{
+	border-color: $border_green;
+	background-color: $green;
+}
+
+.orange
+{
+	border-color: $border_orange;
+	background-color: $orange;
+}
+
+.blue
+{
+	border-color: $border_blue;
+	background-color: $blue;
+}
+
+.pink
+{
+	border-color: $border_pink;
+	background-color: $pink;
+}
+
+.purple
+{
+	border-color: $border_purple;
+	background-color: $purple;
+}
+
+.red
+{
+	border-color: $border_red;
+	background-color: $red;
+}
+
+.blue_light
+{
+	border-color: $border_blue_light;
+	background: $blue_light;
+}
+
+.turquoise
+{
+	border-color: $border_turquoise;
+	background: $turquoise;
+}

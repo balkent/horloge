@@ -1,0 +1,27 @@
+$background_general: #3d3d3d;
+
+// color
+$purple: $brand-warning;
+$red: $brand-danger;
+$green: $brand-success;
+$blue: $brand-primary;
+
+
+// $purple: #5133ab;
+// $red: #ac193d;
+// $green: green;
+// $blue: #225cba;
+$orange: #d24726;
+$pink: #8c0095;
+$blue_light: #2672ec;
+$turquoise: #008299;
+
+$border_darken: 50%;
+$border_green:  darken($green, $border_darken);
+$border_orange:  darken($orange, $border_darken);
+$border_blue:  darken($blue, $border_darken);
+$border_pink:  darken($pink, $border_darken);
+$border_purple:  darken($purple, $border_darken);
+$border_red:  darken($red, $border_darken);
+$border_blue_light:  darken($blue_light, $border_darken);
+$border_turquoise: darken($turquoise, $border_darken);
