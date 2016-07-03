@@ -17,5 +17,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "bootswatch-scss": "^3.2.0"
+  }
 }
