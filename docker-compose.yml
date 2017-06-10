@@ -1,0 +1,7 @@
+web:
+  image: nginx
+  ports:
+    - "80:80"
+  volumes:
+    - ./docker/nginx:/etc/nginx/conf.d
+    - ./src:/var/www/html
