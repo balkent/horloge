@@ -1,12 +1,11 @@
-# horloge
-Une horloge un peu spécial
+# Clock
+Just a slightly special clock
 > git clone https://github.com/QuentinBALCEREK/horloge.git
 
 > cd horloge
 
-> git checkout docker
+> docker-compose up -d
 
-> docker-compose.exe up -d
-
-http://localhost
+http://localhost  
+  
 exemple: http://horloge.quentin-balcerek.fr
