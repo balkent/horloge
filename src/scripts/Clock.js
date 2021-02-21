@@ -93,7 +93,7 @@ var Clock = function () {
 		var arrondi = Math.floor(this.minutes / 5);
 
 		if (arrondi > 0) {
-			this.setOpacity("minutes_" + arrondi, 100);
+			this.setOpacityLoop(arrondi, "minutes_", 100);
 			this.reste = this.minutes - arrondi * 5;
 
 			return true;
