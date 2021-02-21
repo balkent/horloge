@@ -160,3 +160,11 @@
 {
 	left:22px;
 }
+
+@media (prefers-color-scheme: dark)
+{
+	body{
+		background-color: #1c1c1e;
+		color : #fefefe ;
+	}
+}

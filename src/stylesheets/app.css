@@ -8995,3 +8995,11 @@ button.close {
 #heure_7, #heure_11 {
   left: 22px;
 }
+
+@media (prefers-color-scheme: dark) {
+  /* line 166, ../sass/_base.scss */
+  body {
+    background-color: #1c1c1e;
+    color: #fefefe;
+  }
+}
