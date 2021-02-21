@@ -26,28 +26,28 @@
 {
 	width: 94px;
 	height:40px;
-}			
+}
 .one_ligne
 {
 	top:17px;
 }
 .last_ligne
-{			
+{
 	top:230px;
 }
 
 
 .left,.right
 {
-	width: 72px;				
+	width: 72px;
 	height: 55px;
 }
 .left
-{							
+{
 	left:22px;
 }
 .right
-{		
+{
 	left:234px;
 }
 
@@ -70,7 +70,7 @@
 	height:34px;
 }
 .center_right
-{				
+{
 	left:181px;
 }
 
@@ -84,8 +84,8 @@
 .center_bottom
 {
 	width: 44px;
-	top:198px;				
-}		
+	top:198px;
+}
 
 .center_bottom,.center_top
 {
@@ -114,7 +114,7 @@
 #minute_3
 {
 	top:118px;
-}			
+}
 #minute_4
 {
 	top:91px;
@@ -159,4 +159,12 @@
 #heure_7,#heure_11
 {
 	left:22px;
+}
+
+@media (prefers-color-scheme: dark)
+{
+	body{
+		background-color: #1c1c1e;
+		color : #fefefe ;
+	}
 }
