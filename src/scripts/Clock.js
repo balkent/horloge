@@ -32,15 +32,16 @@ var Clock = function () {
 		element.style.filter = 'alpha(opacity=' + value + ')';
 	}
 
+	this.setOpacityLoop = function (length, element, opacity) {
+		for (var i = 1; i <= length; i++)
+			this.setOpacity(element + i, opacity);
+	}
+
 	this.resetClock = function () {
-		for (var i = 1; i <= 12; i++)
-			this.setOpacity("heure_" + i, 20);
-		for (var i = 1; i <= 11; i++)
-			this.setOpacity("minutes_" + i, 20);
-		for (var i = 1; i <= 4; i++)
-			this.setOpacity("minute_" + i, 20);
-		for (var i = 1; i <= 60; i++)
-			this.setOpacity("seconde_" + i, 20);
+		this.setOpacityLoop(12, "heure_", 20);
+		this.setOpacityLoop(11, "minutes_", 20);
+		this.setOpacityLoop(4, "minute_", 20);
+		this.setOpacityLoop(60, "seconde_", 20);
 	}
 
 	this.setClockElement = function ($idElem) {
@@ -71,17 +72,13 @@ var Clock = function () {
 		return true;
 	}
 
-	this.setRest = function () {
-		if (this.reste > 0) {
-			for (var i = 1; i <= this.reste; i++) {
-				this.setOpacity("minute_" + i, 100);
-			}
-		}
+	this.displaySeconde = function () {
+		this.setOpacityLoop(this.seconde, "seconde_", 100);
 	}
 
-	this.displaySeconde = function () {
-		for (var i = 1; i <= this.seconde; i++) {
-			this.setOpacity("seconde_" + i, 100);
+	this.setRest = function () {
+		if (this.reste > 0) {
+			this.setOpacityLoop(this.reste, "minute_", 100);
 		}
 	}
 }
