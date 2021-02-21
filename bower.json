@@ -11,6 +11,7 @@
   ],
   "license": "",
   "private": true,
+  "directory": "src",
   "ignore": [
     "**/.*",
     "node_modules",
