@@ -2,9 +2,8 @@ var Clock = function () {
 	this.date;
 	this.heure;
 	this.minutes;
-	this.seconde;
+	this.second;
 	this.reste;
-	this.arrondi;
 
 	/**
 	 * Run all functions
@@ -24,12 +23,12 @@ var Clock = function () {
 	 */
 	this.init = function () {
 		var date = new Date();
-		this.date = date;
-		this.heure = date.getHours();
+
+		this.date    = date;
+		this.heure   = date.getHours();
 		this.minutes = date.getMinutes();
-		this.second = date.getSeconds();
-		this.reste = 0;
-		this.arrondi = Math.floor(this.minutes / 5);
+		this.second  = date.getSeconds();
+		this.reste   = 0;
 	}
 
 	/**
@@ -91,9 +90,11 @@ var Clock = function () {
 	* Display ten-minutes digit
 	*/
 	this.displayTenMinuteDigit = function () {
-		if (this.arrondi > 0) {
-			this.setOpacity("minutes_" + this.arrondi, 100);
-			this.reste = this.minutes - this.arrondi * 5;
+		var arrondi = Math.floor(this.minutes / 5);
+
+		if (arrondi > 0) {
+			this.setOpacity("minutes_" + arrondi, 100);
+			this.reste = this.minutes - arrondi * 5;
 
 			return true;
 		}
