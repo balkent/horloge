@@ -83,7 +83,7 @@ var Clock = function () {
 		if (this.heure == 0)
 			this.heure = 12;
 
-		this.setOpacity("heure_" + this.heure, 100);
+		this.setOpacityLoop(this.heure, "heure_", 100);
 	}
 
 	/**
